@@ -1,5 +1,6 @@
 hello world written first text for world!!
-as
-as
-as
-
+1) start
+2) input user
+3) read
+4) output
+5) end
