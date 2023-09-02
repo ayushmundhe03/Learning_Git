@@ -1,41 +1,40 @@
 ﻿Learning Git
 
 
-Git config  - -global  - -list
+git config  --global  --list
 Which tells us user email and name attached to git 
 
 
-Git config  - -global  user.name “xyz”                            //to add name to git
-Git config  - -global  user.email “xyz@g**.com”            //to add email to git
+git config  --global  user.name “xyz”                            //to add name to git
+git config  --global  user.email “xyz@g**.com”            //to add email to git
 
 
 
 
-Git init     // command used to initalize the git in your directory
+git init     // command used to initalize the git in your directory
 
 
-Rm - rf file_name                // to remove the file from your directory
+rm - rf file_name                // to remove the file from your directory
 
-
-Git init -b branch_name       // it will initailize git with your specific name
-
-
-
-
-Git add file_name               // to add file to git 
-Git add  - -all                       // which allows all files which are present in files to add in git 
-
-
-Git commit -m “ add the message you wanted to commit for file”         // it will commit with file
-
-
-Git status                     // which shows files which are added and not added to git
-Git log                          // which tells us all commit 
-
-
-Git diff                        // which will tell the changes made in file before adding 
+git init -b branch_name       // it will initailize git with your specific name
 
 
 
 
-Git rm - -cached  file_name            //which will remove the file from git
+git add file_name               // to add file to git 
+git add  --all                       // which allows all files which are present in files to add in git 
+
+
+git commit -m “ add the message you wanted to commit for file”         // it will commit with file
+
+
+git status                     // which shows files which are added and not added to git
+git log                          // which tells us all commit 
+
+
+git diff                        // which will tell the changes made in file before adding 
+
+
+
+
+git rm --cached  file_name            //which will remove the file from git
