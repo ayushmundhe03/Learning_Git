@@ -47,3 +47,19 @@ git push origin branch_name  // to push from local to remote repository
  
 
 git tag -a v1.0 -m "1st release"  // used for annotating tag
+
+git checkout -b branch_name      //to create a new one branch
+
+git branch       //to know branches in git
+git checkout branch_name    //to switch the branch
+(or)
+git switch branch_name  
+
+git switch -c branch_name           //it will create new branch and switch to it
+git branch --all         // which shows all branches including remote
+
+git branch -d branch_name   // to delete the branch 
+
+git merge branch_other // to merge all branches *you have to be in main branch
+
+git pull remot_branch branch   //to fetch and merge changes
