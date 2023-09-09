@@ -1,5 +1,6 @@
 ﻿Learning Git
 
+git --version        // for checking the git is installed correctly or not
 
 git config  --global  --list
 Which tells us user email and name attached to git 
@@ -23,10 +24,10 @@ git init -b branch_name       // it will initailize git with your specific name
 
 git add file_name               // to add file to git 
 git add  --all                       // which allows all files which are present in files to add in git 
+(or) git add .
 
-
-git commit -m “ add the message you wanted to commit for file”         // it will commit with file
-
+git commit -m “add the message you wanted to commit for file”         // it will commit with file
+git commit -a -m "added the message" //in this way we can add commit without going in stagging area.
 
 git status                     // which shows files which are added and not added to git
 git log                          // which tells us all commit 
@@ -35,6 +36,14 @@ git log                          // which tells us all commit
 git diff                        // which will tell the changes made in file before adding 
 
 
-
-
 git rm --cached  file_name            //which will remove the file from git
+
+
+git clone address   //which will copy the other files and add to your local repostiory
+
+ssh-keygen -o        // used to create ssh key for device
+
+git push origin branch_name  // to push from local to remote repository
+ 
+
+git tag -a v1.0 -m "1st release"  // used for annotating tag
